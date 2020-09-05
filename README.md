@@ -7,6 +7,9 @@ A CDK Deployment of static website to S3 and Cloudfront
 **S3**: Storage Service
 **CloudFront**: Content Delivery Network to serve your content as fast as possible to users
 
+## Architecture
+![Architecture Diagram](docs/images/architecture.png)
+
 ## Set up
 
 1. Install [CDK](https://docs.aws.amazon.com/cdk/latest/guide/cli.html)

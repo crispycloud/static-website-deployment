@@ -26,3 +26,7 @@ cdk deploy
 ```
 
 Go to your AWS Console and go to [Cloudfront Service](https://console.aws.amazon.com/cloudfront/home) and get the domain name. Your website is available at `https://${your-domain}/index.html`. For example, if your domain is `d2v71ds80aobji.cloudfront.net`. Your website is at `https://d2v71ds80aobji.cloudfront.net/index.html`
+
+## Future Improvements
+
+Add Route 53 to resolve a domain to cloudfront

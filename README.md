@@ -1,21 +1,26 @@
 # Static Website Deployment on S3 and Cloudfront
 
+## Prerequisite knowledge
+- AWS S3
+- AWS Cloudfront
+- AWS CDK
+- AWS SDK
+- Typescript
+
+## Background
+
 A CDK Deployment of static website to S3 and Cloudfront
-
-## Context Knowledge
-
-**S3**: Storage Service
-**CloudFront**: Content Delivery Network to serve your content as fast as possible to users
 
 ## Architecture
 ![Architecture Diagram](docs/images/architecture.png)
 
-## Set up
+## How to replicate this
 
+1. Clone this repository
 1. Install [CDK](https://docs.aws.amazon.com/cdk/latest/guide/cli.html)
+2. `npm install`
 2. Set up your [AWS credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
-3. Put your website under
-
+3. Put your static website under `website` directory
 
 ## Deployment
 
@@ -29,4 +34,4 @@ Go to your AWS Console and go to [Cloudfront Service](https://console.aws.amazon
 
 ## Future Improvements
 
-Add Route 53 to resolve a domain to cloudfront
+Add Route 53 to resolve a domain to our existing cloudfront
